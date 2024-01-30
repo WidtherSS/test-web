@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav h1 {
+    font-size: medium;
+    margin-left: 25px;
+}
+
+button {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.custom-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: small;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #333;
+}
+
+.image-section {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.background-image {
+    background-image: url('Materiale/topbillede.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100vw;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 10%; /* Adjust the left position as needed */
+    transform: translateY(-50%);
+    color: white;
+    width: 40%; /* Adjust the width as needed */
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
